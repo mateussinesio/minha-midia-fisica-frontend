@@ -1,0 +1,120 @@
+.wishlist-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.wishlist-filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    color: var(--wishlist-filter-text-color)
+}
+
+#category-select {
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.wishlist-search {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding: 10px;
+}
+
+.wishlist-search input {
+    width: 80%;
+    padding: 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: var(--main-box-shadow);
+}
+
+.wishlist-film-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.wishlist-film-card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid var(--film-overview-color);
+}
+
+.wishlist-film-poster-container {
+    cursor: pointer;
+}
+
+.wishlist-film-poster-container img {
+    width: 200px;
+    height: 300px;
+}
+
+.wishlist-dropdown-menu {
+    position: relative;
+    display: block;
+}
+
+.wishlist-dropdown-menu-button {
+    color: var(--wishlist-dropdown-menu-button-text-color);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.wishlist-dropdown-menu-options {
+    display: block;
+    color: rgb(73, 71, 71);
+    position: absolute;
+    background-color: var(--wishlist-dropdown-menu-options-background-color);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+}
+
+.wishlist-dropdown-menu-button:hover+.wishlist-dropdown-menu-options,
+.wishlist-dropdown-menu-options:hover {
+    display: block;
+}
+
+.wishlist-dropdown-menu-options li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.wishlist-dropdown-menu-options li:hover {
+    background-color: var(--wishlist-dropdown-menu-options-hover)
+}
+
+.no-films-in-your-wishlist-message {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: var(--messages-color);
+}
+
+@media (max-width: 1200px) {
+
+    .wishlist-film-container {
+        padding: 10px;
+    }
+
+    .wishlist-film-card {
+        width: 103px;
+        height: 150px;
+    }
+
+    .wishlist-film-card img {
+        width: 103px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,28 @@
+:root {
+    --film-title-color: #e0dcdd;
+    --original-title-color: #6e6668;
+    --film-director-color: #706f6f;
+    --film-overview-color: #706f6f;
+    --button-color: #213847;
+    --button-hover: #25435f;
+    --button-hover-text-color: #e0dcdd;
+    --add-film-to-wishlist-text-color: #e0dcdd;
+    --current-categories-text-color: #e0dcdd;
+    --show-film-details-modal-dropdown-menu-options-background-color: #e0dcdd;
+    --main-background-color: rgb(23, 25, 25);
+    --secondary-background-color: rgb(21, 22, 22);
+    --selection-color: #BC4848;
+    --header-nav-button-hover: #73a1db;
+    --header-bottom-border-color: #706f6f48;
+    --logo-img-border-color: #706f6f;
+    --title-color: #BC4848;
+    --description-color: #706f6f;
+    --header-nav-button-color: #8F887F;
+    --wishlist-filter-text-color: #8F887F;
+    --wishlist-dropdown-menu-button-text-color: rgb(73, 71, 71);
+    --wishlist-dropdown-menu-options-background-color: #e0dcdd;
+    --wishlist-dropdown-menu-options-hover: #cfcccc;
+    --messages-color: red;
+    --loading-color: #e0dcdd;
+    --main-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

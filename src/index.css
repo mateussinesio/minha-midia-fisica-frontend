@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Mulish", serif;
+}
+
+body {
+  background-color: var(--main-background-color);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  border: 1px solid var(--logo-img-border-color);
+  box-shadow: var(--main-box-shadow);
+}
+
+.title-and-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.title-and-description h1 {
+  color: var(--title-color);
+}
+
+.title-and-description p {
+  color: var(--description-color);
+}
+
+.header {
+  border-bottom: 1px solid var(--header-bottom-border-color);
+  padding: 10px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0px 0px;
+}
+
+.header nav a {
+  color: var(--header-nav-button-color);
+  text-decoration: none;
+  transition: all ease-in-out 250ms;
+  letter-spacing: 1px;
+}
+
+.header nav a:hover {
+  color: var(--header-nav-button-hover)
+}
+
+.header button {
+  font-size: 15px;
+  cursor: pointer;
+  color: var(--header-nav-button-color);
+  transition: all ease-in-out 250ms;
+  letter-spacing: 1px;
+  background-color: var(--main-background-color)
+}
+
+.header button:hover {
+  color: var(--header-nav-button-hover);
+}
+
+::selection {
+  background-color: var(--selection-color)
+}

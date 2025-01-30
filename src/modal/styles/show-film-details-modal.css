@@ -1,0 +1,169 @@
+.show-film-details-modal-background {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.show-film-details-modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-background-color);
+    border-radius: 8px;
+    width: 600px;
+    max-height: 95%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.show-film-details-modal-film-title-and-director-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 1px;
+}
+
+.show-film-details-modal-film-title {
+    font-size: 18px;
+    color: var(--film-title-color);
+}
+
+.show-film-details-modal-original-film-title {
+    font-size: 15px;
+    color: var(--original-title-color);
+}
+
+.show-film-details-modal-film-director {
+    font-size: 16px;
+    color: var(--film-director-color)
+}
+
+.show-film-details-modal-film-poster {
+    width: 200px;
+    height: 300px;
+    box-shadow: var(--main-box-shadow);
+    border: 1px solid var(--film-title-color);
+}
+
+.show-film-details-modal-film-overview-container {
+    padding: 23px 23px 12px;
+}
+
+.show-film-details-modal-film-overview {
+    background-color: var(--main-background-color);
+    padding: 10px;
+    color: var(--film-overview-color);
+}
+
+.show-film-details-modal-film-current-categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--current-categories-text-color)
+}
+
+.show-film-details-modal-film-current-categories-container ul {
+    display: flex;
+    gap: 6px;
+    list-style: none;
+    background-color: var(--main-background-color);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.show-film-details-modal-film-current-categories-container button {
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.show-film-details-modal-film-current-categories-container button:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}
+
+.show-film-details-modal-add-category-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.show-film-details-modal-add-category-button-container button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.show-film-details-modal-add-category-button-container button:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}
+
+.show-film-details-modal-buttons {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+}
+
+.show-film-details-modal-buttons button {
+    padding: 8px 16px;
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.show-film-details-modal-buttons button:hover {
+    background-color: var(--button-hover);
+}
+
+.show-film-details-modal-dropdown-menu {
+    padding: 10px;
+}
+
+.show-film-details-modal-dropdown-menu-button {
+    color: rgb(73, 71, 71);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.show-film-details-modal-dropdown-menu-options {
+    display: contents;
+    color: rgb(73, 71, 71);
+    position: absolute;
+    background-color: var(--show-film-details-modal-dropdown-menu-options-background);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+}
+
+.show-film-details-modal-dropdown-menu-button:hover+.show-film-details-modal-dropdown-menu-options,
+.show-film-details-modal-dropdown-menu-options:hover {
+    display: contents;
+}
+
+.show-film-details-modal-dropdown-menu-options li {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: var(--show-film-details-modal-dropdown-menu-options-background-color);
+}
+
+.show-film-details-modal-dropdown-menu-options li:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}
+
+@media (max-width: 650px) {
+    .show-film-details-modal-container {
+        width: 350px;
+    }
+}

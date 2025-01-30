@@ -1,0 +1,27 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 20px;
+}
+
+.login-container input {
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.login-container button {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-container button:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}

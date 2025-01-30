@@ -1,0 +1,106 @@
+.add-film-to-wishlist-modal-background {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.add-film-to-wishlist-modal-container {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary-background-color);
+    color: var(--add-film-to-wishlist-text-color);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.add-film-to-wishlist-modal-category-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-film-to-wishlist-modal-category-selection-title,
+.add-film-to-wishlist-modal-category-selected-title {
+    padding: 10px;
+}
+
+.add-film-to-wishlist-modal-category-selection-container button {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.add-film-to-wishlist-modal-category-selection-container button:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}
+
+.add-film-to-wishlist-modal-selected-categories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 30px;
+}
+
+.add-film-to-wishlist-modal-selected-categories-container button {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.add-film-to-wishlist-modal-selected-categories-container button:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}
+
+.add-film-to-wishlist-modal-category-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    list-style: none;
+}
+
+.add-film-to-wishlist-modal-category-list li {
+    display: flex;
+    gap: 6px;
+}
+
+.add-film-to-wishlist-modal-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.add-film-to-wishlist-modal-options input {
+    cursor: pointer;
+}
+
+.add-film-to-wishlist-modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-film-to-wishlist-modal-buttons button {
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    border-radius: 4px;
+}
+
+.add-film-to-wishlist-modal-buttons button:hover {
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover);
+}
