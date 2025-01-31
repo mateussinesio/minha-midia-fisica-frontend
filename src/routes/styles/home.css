@@ -62,6 +62,11 @@
     border: 1px solid var(--film-title-color);
 }
 
+.film-poster img {
+    width: 200px;
+    height: 300px;
+}
+
 .film-details {
     display: flex;
     flex-direction: column;
@@ -125,11 +130,6 @@
         align-items: center;
         justify-content: center;
         padding: 10px 0px;
-    }
-
-    .film-poster img {
-        box-shadow: var(--main-box-shadow);
-        border: 1px solid var(--film-title-color);
     }
 
     .film-details {
